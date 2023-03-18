@@ -21,7 +21,10 @@ import org.openqa.selenium.Keys as Keys
 not_run: Mobile.startApplication('/users/mosaj/git/SP12D-MV1/xe.apk', false)
 
 'MAC - APK relative path'
-Mobile.startApplication('MAE.apk', false)
+not_run: Mobile.startApplication('MAE.apk', false)
+
+'MAC - APK relative path'
+Mobile.startApplication('MAE (STG).apk', false)
 
 Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\1.png', FailureHandling.CONTINUE_ON_FAILURE)
 
